@@ -21,5 +21,13 @@
   --shape-hover: #383D42;
   --text-body: #C8CDD0;
   --text-heading: #F9F9F9;
+  --leckerli: 'Leckerli One', cursive;
+  --baloo: 'Baloo 2', 'Open Sans', sans-serif;
+  --open-sans: 'Open Sans', sans-serif;
+  --logo: 400 40px var(--leckerli);
+  --heading-md: 700 28px var(--baloo);
+  --heading-sm: 700 18px var(--baloo);
+  --body-md: 600 16px var(--open-sans);
+  --body-sm: 600 14px var(--open-sans);
+  --body-xs: 600 12px var(--open-sans);
 }
-

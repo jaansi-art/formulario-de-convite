@@ -15,6 +15,8 @@
   --input-base: #1C1F21;
   --input-stroke: #363B40;
   --input-placeholder: #869198;
+  --scrollbar-color: #50555a;
+  --shape-surface: #29292E;
   --shape-background: #131516;
   --shape-body: #212427;
   --shape-button: #2D3136;
@@ -40,3 +42,10 @@
   vertical-align: middle;
   transition: color 0.2s ease;
 }
+
+body {
+  font: var(--body-sm);
+  color: var(--text-body);
+  background-color: var(--shape-body);
+}
+

@@ -16,8 +16,6 @@
 }
 
 aside {
-  padding: 0;
-  margin: 0;
   overflow: hidden;
 }
 
@@ -79,4 +77,9 @@ main::-webkit-scrollbar-thumb {
 main .main-container {
   max-width: 33rem;
   margin: 0 auto;
+}
+
+h2 {
+  font: var(--heading-md);
+  color: var(--text-heading);
 }

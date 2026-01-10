@@ -57,13 +57,13 @@
                   <svg class="icon">
                     <use href="assets/img/icons.svg#circle-alert"></use>
                   </svg>
-                  <span>Este campo é obrigatório</span>
+                  <span>Campo obrigatório</span>
                 </div>
               </div>
 
               <div class="input-wrapper">
                 <div class="flex">
-                  <div class="input-wrapper flex-2">
+                  <div class="input-wrapper flex-1">
                     <label for="start">Início</label>
                     <input type="datetime-local" id="start" name="start" lang="pt-BR" required />
 
@@ -71,7 +71,7 @@
                       <svg class="icon">
                         <use href="assets/img/icons.svg#circle-alert"></use>
                       </svg>
-                      <span>Este campo é obrigatório</span>
+                      <span>Campo obrigatório</span>
                     </div>
                   </div>
 
@@ -83,7 +83,7 @@
                       <svg class="icon">
                         <use href="assets/img/icons.svg#circle-alert"></use>
                       </svg>
-                      <span>Este campo é obrigatório</span>
+                      <span>Campo obrigatório</span>
                     </div>
                   </div>
                 </div>
@@ -94,7 +94,7 @@
                   <label>Tipo</label>
                   <div class="radio-group">
                     <label class="radio-card">
-                      <input type="radio" id="in-person" name="event-type" value="presencial" checked required />
+                      <input type="radio" id="in-person" name="event-type" value="presencial" checked />
                       <div class="radio-content">
                         <svg class="icon building-2">
                           <use href="assets/img/icons.svg#building-2"></use>
@@ -104,7 +104,7 @@
                     </label>
 
                     <label class="radio-card">
-                      <input type="radio" id="online" name="event-type" value="online" required />
+                      <input type="radio" id="online" name="event-type" value="online" />
                       <div class="radio-content">
                         <svg class="icon video">
                           <use href="assets/img/icons.svg#video"></use>
@@ -117,7 +117,7 @@
                     <svg class="icon">
                       <use href="assets/img/icons.svg#circle-alert"></use>
                     </svg>
-                    <span>Este campo é obrigatório</span>
+                    <span>Campo obrigatório</span>
                   </div>
                 </div>
 
@@ -129,7 +129,7 @@
                     <svg class="icon">
                       <use href="assets/img/icons.svg#circle-alert"></use>
                     </svg>
-                    <span>Este campo é obrigatório</span>
+                    <span>Campo obrigatório</span>
                   </div>
                 </div>
               </div>
@@ -147,8 +147,245 @@
                   <svg class="icon">
                     <use href="assets/img/icons.svg#circle-alert"></use>
                   </svg>
-                  <span>Este campo é obrigatório</span>
+                  <span>Campo obrigatório</span>
                 </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="customization">
+              <legend>
+                <svg class="icon brush">
+                  <use href="assets/img/icons.svg#brush"></use>
+                </svg>
+                Personalização
+              </legend>
+
+              <div class="flex">
+                <div class="input-wrapper flex-1">
+                  <label class="customization-white">Cor principal</label>
+                  <div class="color-grid">
+                    <label class="color-option">
+                      <input type="radio" name="main-color" value="blue" checked />
+                      <span class="color-picker-circle" style="--circle-color: var(--brand-light)"></span>
+                    </label>
+
+                    <label class="color-option">
+                      <input type="radio" name="main-color" value="navy" />
+                      <span class="color-picker-circle" style="--circle-color: var(--navy)"></span>
+                    </label>
+
+                    <label class="color-option">
+                      <input type="radio" name="main-color" value="purple" />
+                      <span class="color-picker-circle" style="--circle-color: var(--purple)"></span>
+                    </label>
+
+                    <label class="color-option">
+                      <input type="radio" name="main-color" value="fuschia" />
+                      <span class="color-picker-circle" style="--circle-color: var(--fuschia)"></span>
+                    </label>
+
+                    <label class="color-option">
+                      <input type="radio" name="main-color" value="pink" />
+                      <span class="color-picker-circle" style="--circle-color: var(--pink)"></span>
+                    </label>
+
+                    <label class="color-option">
+                      <input type="radio" name="main-color" value="red" />
+                      <span class="color-picker-circle" style="--circle-color: var(--danger)"></span>
+                    </label>
+
+                    <label class="color-option">
+                      <input type="radio" name="main-color" id="orange" />
+                      <span class="color-picker-circle" style="--circle-color: var(--orange)"></span>
+                    </label>
+
+                    <label class="color-option">
+                      <input type="radio" name="main-color" id="yellow" />
+                      <span class="color-picker-circle" style="--circle-color: var(--yellow)"></span>
+                    </label>
+
+                    <label class="color-option">
+                      <input type="radio" name="main-color" value="lime" />
+                      <span class="color-picker-circle" style="--circle-color: var(--lime)"></span>
+                    </label>
+
+                    <label class="color-option">
+                      <input type="radio" name="main-color" value="green" />
+                      <span class="color-picker-circle" style="--circle-color: var(--green)"></span>
+                    </label>
+
+                    <label class="color-option">
+                      <input type="radio" name="main-color" value="cyan" />
+                      <span class="color-picker-circle" style="--circle-color: var(--cyan)"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="input-wrapper flex-1">
+                <label class="customization-white">Tema do evento</label>
+              </div>
+
+              <div class="event-grid">
+                <label class="theme-card">
+                  <input type="radio" name="event-theme" value="birthday" checked />
+                  <div class="theme-content">
+                    <img
+                      src="assets/img/tema/birthday.png"
+                      alt="Bolo de aniversário branco com faíscas, e cor de fundo claro"
+                      loading="lazy" />
+                    <span data-text="Aniversário">Aniversário</span>
+                  </div>
+                </label>
+
+                <label class="theme-card">
+                  <input type="radio" name="event-theme" value="children" />
+                  <div class="theme-content">
+                    <img
+                      src="assets/img/tema/children.png"
+                      alt="Objetos de aniversário infantil coloridos"
+                      loading="lazy" />
+                    <span data-text="Infantil">Infantil</span>
+                  </div>
+                </label>
+
+                <label class="theme-card">
+                  <input type="radio" name="event-theme" value="graduation" />
+                  <div class="theme-content">
+                    <img
+                      src="assets/img/tema/graduation.png"
+                      alt="Capelo preto e faixa verde de formatura"
+                      loading="lazy" />
+                    <span data-text="Formatura">Formatura</span>
+                  </div>
+                </label>
+
+                <label class="theme-card">
+                  <input type="radio" name="event-theme" value="marriage" />
+                  <div class="theme-content">
+                    <img
+                      src="assets/img/tema/marriage.png"
+                      alt="Alianças douradas de casamento com o fundo claro"
+                      loading="lazy" />
+                    <span data-text="Casamento">Casamento</span>
+                  </div>
+                </label>
+
+                <label class="theme-card">
+                  <input type="radio" name="event-theme" value="baby-shower" />
+                  <div class="theme-content">
+                    <img
+                      src="assets/img/tema/baby-shower.png"
+                      alt="Orquídeas brancas e roxas e lenço umedecido para bebês, e um fundo azul"
+                      loading="lazy" />
+                    <span data-text="Chá de bebê">Chá de bebê</span>
+                  </div>
+                </label>
+
+                <label class="theme-card">
+                  <input type="radio" name="event-theme" value="brindal-shower" />
+                  <div class="theme-content">
+                    <img
+                      src="assets/img/tema/bridal-shower.png"
+                      alt="Cozinha em uma imagem embaçada com a parede branca"
+                      loading="lazy" />
+                    <span data-text="Chá de panela">Chá de panela</span>
+                  </div>
+                </label>
+
+                <label class="theme-card">
+                  <input type="radio" name="event-theme" value="carnival" />
+                  <div class="theme-content">
+                    <img src="assets/img/tema/carnival.png" alt="Fitas e confetes coloridos no chão" loading="lazy" />
+                    <span data-text="Carnaval">Carnaval</span>
+                  </div>
+                </label>
+
+                <label class="theme-card">
+                  <input type="radio" name="event-theme" value="easter" />
+                  <div class="theme-content">
+                    <img
+                      src="assets/img/tema/easter.png"
+                      alt="Ovos coloridos decorados, o da frente de coelinho da páscoa"
+                      loading="lazy" />
+                    <span data-text="Páscoa">Páscoa</span>
+                  </div>
+                </label>
+
+                <label class="theme-card">
+                  <input type="radio" name="event-theme" value="saint-john" />
+                  <div class="theme-content">
+                    <img src="assets/img/tema/saint-john.png" alt="Bandeirinhas coloridas de São João" loading="lazy" />
+                    <span data-text="São João">São João</span>
+                  </div>
+                </label>
+
+                <label class="theme-card">
+                  <input type="radio" name="event-theme" value="halloween" />
+                  <div class="theme-content">
+                    <img
+                      src="assets/img/tema/halloween.png"
+                      alt="Abóboras de halloween sorrindo, com cara de malvado, no escuro e com luzes internas"
+                      loading="lazy" />
+                    <span data-text="Halloween">Halloween</span>
+                  </div>
+                </label>
+
+                <label class="theme-card">
+                  <input type="radio" name="event-theme" value="christmas" />
+                  <div class="theme-content">
+                    <img
+                      src="assets/img/tema/christmas.png"
+                      alt="2 presentes de natal com fitas vermelhas e com o fundo vermelho"
+                      loading="lazy" />
+                    <span data-text="Natal">Natal</span>
+                  </div>
+                </label>
+
+                <label class="theme-card">
+                  <input type="radio" name="event-theme" value="other" />
+                  <div class="theme-content">
+                    <img
+                      src="assets/img/tema/other.png"
+                      alt="Pessoas brindando com uma taça de champagne, de baixo para cima"
+                      loading="lazy" />
+                    <span data-text="Outro">Outro</span>
+                  </div>
+                </label>
+              </div>
+
+              <div class="main-settings-container flex">
+                <div class="theme-switch-container">
+                  <label class="theme-text-2">Estilo</label>
+                  <div class="switch-wrapper">
+                    <button type="button" class="dark-light" id="theme-toggle" aria-label="Alternar tema">
+                      <span class="toggle-circle"></span>
+                    </button>
+                    <p id="theme-text">Escuro</p>
+                  </div>
+                </div>
+
+                <div class="archive-selection">
+                  <label class="theme-text-2">Foto de capa</label>
+                  <div class="upload-wrapper flex">
+                    <button type="button" class="archive" id="archive-button" aria-controls="file-input">
+                      <svg class="icon upload">
+                        <use href="assets/img/icons.svg#upload"></use>
+                      </svg>
+                      <span>Selecionar</span>
+                    </button>
+                    <p class="file-status" id="file-name">Nenhum arquivo selecionado</p>
+                  </div>
+
+                  <div class="error-message" id="error-upload">
+                    <svg class="icon circle-alert">
+                      <use href="assets/img/icons.svg#circle-alert"></use>
+                    </svg>
+                    <span>Só é permitido imagens.</span>
+                  </div>
+                </div>
+
+                <input type="file" id="file-input" accept="image/*" style="display: none" />
               </div>
             </fieldset>
           </form>

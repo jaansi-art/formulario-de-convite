@@ -1,4 +1,5 @@
 :root {
+  /* Colors */
   --brand-light: #59B2FF;
   --brand-mid: #3487CF;
   --brand-dark: #1D6FB6;
@@ -12,6 +13,8 @@
   --cyan: #59FFF9;
   --navy: #6A59FF;
   --danger: #FF5959;
+
+  /* Neutrals */
   --input-base: #1C1F21;
   --input-stroke: #363B40;
   --input-placeholder: #869198;
@@ -23,9 +26,14 @@
   --shape-hover: #383D42;
   --text-body: #C8CDD0;
   --text-heading: #F9F9F9;
+  --customization-white: #FFFFFF;
+
+  /* Typography */
   --leckerli: 'Leckerli One', cursive;
   --baloo: 'Baloo 2', 'Open Sans', sans-serif;
   --open-sans: 'Open Sans', sans-serif;
+
+  /* Font Styles */
   --logo: 400 40px var(--leckerli);
   --heading-md: 700 28px var(--baloo);
   --heading-sm: 700 18px var(--baloo);
@@ -52,39 +60,13 @@ body {
   font-weight: 300;
 }
 
+/* --- FORM WRAPPERS & LOGIC --- */
+
 .input-wrapper {
   display: flex;
   flex-direction: column;
   gap: 12px;
   width: 100%;
-
-  .error-message {
-    visibility: hidden;
-    align-items: center;
-    color: var(--danger);
-    font: var(--body-xs);
-    margin-top: -10px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-
-    svg {
-      width: 16px;
-      height: 16px;
-      fill: var(--danger);
-    }
-  }
-
-  /* Lógica de exibição da mensagem de erro */
-  &:has(input:invalid:not(:placeholder-shown):not([type="datetime-local"])),
-  &:has(input[type="datetime-local"]:invalid:focus),
-  &:has(textarea:invalid:not(:placeholder-shown)) {
-    .error-message {
-      visibility: visible;
-      opacity: 1;
-      height: auto;
-    }
-  }
 
   label {
     font: var(--body-sm);
@@ -93,11 +75,22 @@ body {
   }
 }
 
+/* Lógica de exibição da mensagem de erro original */
+.input-wrapper:has(input:invalid:not(:placeholder-shown):not([type="datetime-local"])),
+.input-wrapper:has(input[type="datetime-local"]:invalid:focus),
+.input-wrapper:has(textarea:invalid:not(:placeholder-shown)) {
+  .error-message {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+  }
+}
+
+/* --- NATIVE INPUTS --- */
+
 input[type="text"],
-input[type="textarea"],
 input[type="email"],
 input[type="number"],
-input[type="radio"],
 input[type="datetime-local"],
 textarea {
   width: 100%;
@@ -136,6 +129,7 @@ input[type="datetime-local"]:invalid:not(:focus) {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
+/* Chrome Autofill fix */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
@@ -166,14 +160,6 @@ input[type="datetime-local"]::-webkit-datetime-edit-minute-field {
   font-weight: 400;
 }
 
-.flex {
-  display: flex;
-  gap: 1rem;
-}
-
-.flex-1 { flex: 1; }
-.flex-2 { flex: 2; }
-
 textarea {
   resize: none;
   height: 136px;
@@ -181,3 +167,8 @@ textarea {
   max-height: 136px;
   line-height: 1.5;
 }
+
+/* --- UTILITIES --- */
+.flex { display: flex; gap: 1rem; }
+.flex-1 { flex: 1; }
+.flex-2 { flex: 2; }

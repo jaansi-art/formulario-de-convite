@@ -18,7 +18,7 @@ Este projeto consiste em um formulário de convite moderno e totalmente responsi
 - **Validação de Formulário:** Implementação de feedbacks visuais e restrições de caracteres diretamente no HTML.
 - **Máscara Dinâmica:** Criação de script para formatação automática de telefone no padrão brasileiro.
 - **Consistência de Marca:** Desenvolvimento de páginas auxiliares de Termos e Privacidade seguindo o mesmo guia de estilos.
-- **Responsividade:** Uso de técnicas modernas para adaptação.
+- **Responsividade:** Implementação de Media Queries para adaptação fluida em dispositivos móveis, utilizando estruturas de Grid e Flexbox.
 - **Fidelidade ao Design:** Implementação pixel-perfect baseada no layout do Figma.
 
 ### 🚀 Como rodar o projeto localmente
@@ -55,7 +55,7 @@ This project consists of a modern and fully responsive invitation form. The main
 - **Form Validation:** Implementation of visual feedback and character restrictions directly in HTML.
 - **Dynamic Mask:** Script creation for automatic phone formatting in the Brazilian standard.
 - **Brand Consistency:** Development of auxiliary Terms and Privacy pages following the same style guide.
-- **Responsiveness:** Use of modern techniques for adaptation.
+- **Responsiveness:** Implementation of Media Queries for seamless mobile adaptation, leveraging CSS Grid and Flexbox layouts.
 - **Design Fidelity:** Pixel-perfect implementation based on the Figma layout.
 
 ### 🚀 How to run the project locally

